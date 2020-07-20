@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ecommerce</string>
+    <string name="tudor_black_bay">Tudor Black bay</string>
+    <string name="reference_no">Reference: m79540-0006</string>
+    <string name="add_to_bag">ADD TO BAG</string>
+    <string name="item_description">Introduced at Baselworld 2017, this elegant, sporty watch captures the essence of Black Bay in a more formal version.</string>
+    <string name="price">$658.00</string>
+    <string name="year_guarantee">\t5 Year \nGuarantee</string>
+    <string name="automatic">Automatic</string>
+    <string name="steel_case">\t41 mm \nSteel Case</string>
+    <string name="waterproof">Waterproof</string>
+</resources>
