@@ -75,6 +75,7 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/security"
+                    android:tint="#757575"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintStart_toStartOf="parent"/>
 
@@ -94,6 +95,7 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/automatic"
+                    android:tint="#757575"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintStart_toEndOf="@id/guarantee"
                     app:layout_constraintEnd_toStartOf="@id/steel_case"/>
@@ -114,6 +116,7 @@
                     android:id="@+id/steel_case"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:tint="#757575"
                     android:src="@drawable/watch"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintStart_toEndOf="@id/automatic"
@@ -135,6 +138,7 @@
                     android:id="@+id/waterproof"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:tint="#757575"
                     android:src="@drawable/umbrella"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintStart_toEndOf="@id/steel_case"
