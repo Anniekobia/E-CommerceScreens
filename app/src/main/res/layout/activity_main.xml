@@ -35,12 +35,28 @@
             android:layout_alignParentEnd="true"
             android:src="@drawable/heart" />
 
-        <ImageView
-            android:id="@+id/item_image"
+<!--        <ImageView-->
+<!--            android:id="@+id/item_image"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="250dp"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:src="@drawable/img_watch" />-->
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/item_image_Viewpager"
             android:layout_width="200dp"
             android:layout_height="250dp"
+            android:layout_centerInParent="true"/>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="20dp"
             android:layout_centerInParent="true"
-            android:src="@drawable/img_watch" />
+            android:layout_below="@id/item_image_Viewpager"
+            app:tabBackground="@android:color/darker_gray"
+            app:tabIndicatorColor="@color/color_red"/>
     </RelativeLayout>
 
 
